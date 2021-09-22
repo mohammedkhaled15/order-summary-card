@@ -39,6 +39,7 @@
 }
 .main h2{
     font-weight:900;
+    font-family:'Red Hat Display', sans-serif;
     text-align: center;
     margin: 20px;
 }
@@ -47,6 +48,7 @@
     color: gray;
     text-align: center;
     margin: 25px 45px;
+    font-family:'Red Hat Display', sans-serif;
 }
 .price{
     width: 350px;
@@ -70,12 +72,14 @@
     color: black;
     margin-top: -10px;
     margin-left: 0px;
+    font-family:'Red Hat Display', sans-serif;
 }
 .price p{
     color: gray;
     margin-left: 78px;
     margin-top: -20px;
     font-weight: bold;
+    font-family:'Red Hat Display', sans-serif;
 }
 .price a{
     margin-right: 37px;
@@ -83,10 +87,15 @@
     top: 50%;
     right: -1px; 
     font-weight: bold;   
+    font-family:'Red Hat Display', sans-serif;
 }
 
 .button1{
     margin: 20px auto;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-family:'Red Hat Display', sans-serif;
     width: 350px;
     padding: 10px;
     background-color: hsl(245, 75%, 52%);
