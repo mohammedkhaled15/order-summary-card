@@ -13,21 +13,38 @@
 }
 .main-cont{
     background-color: #E0E8FF;
+    height: 800px;
 }
 .svg-cont{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-image: url(../images/pattern-background-desktop.svg);
-  height: 437px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../images/pattern-background-desktop.svg);
+    height: 437px;
 }
 .card{
     width: 450px;
-
+    margin-top: 300px;
+    background-color: white;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
 }
 .card img{
-    
-    margin-right: -225px;
     border-radius: 30px 30px 0px 0px;
+}
+.main h2{
+    font-weight:900;
+    text-align: center;
+    margin: 20px;
+}
+
+.main h5{
+    font-size: 16px;
+    color: gray;
+    text-align: center;
+    margin: 25px 45px;
 }
