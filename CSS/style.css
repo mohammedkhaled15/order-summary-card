@@ -6,6 +6,7 @@
 }
 .attribution{
     font-size: 11px;
+    margin-top: 50px;
 }
 
 .attribution a{
@@ -41,10 +42,65 @@
     text-align: center;
     margin: 20px;
 }
-
 .main h5{
     font-size: 16px;
     color: gray;
     text-align: center;
     margin: 25px 45px;
+}
+.price{
+    width: 350px;
+    background-color: #F8F9FE;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: relative;
+}
+.price img{
+    position: absolute;
+    top: 50%;
+    margin-top: -24px;
+}
+.price h5{
+    right: 50%;
+    color: black;
+    margin-top: -10px;
+    margin-left: 0px;
+}
+.price p{
+    color: gray;
+    margin-left: 78px;
+    margin-top: -20px;
+    font-weight: bold;
+}
+.price a{
+    margin-right: 37px;
+    position: absolute;
+    top: 50%;
+    right: -1px; 
+    font-weight: bold;   
+}
+
+.button1{
+    margin: 20px auto;
+    width: 350px;
+    padding: 10px;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    box-shadow: 0px 8px 10px hsl(245, 46%, 56%);
+}
+.button2{
+    margin: 30px auto;
+    color: gray;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
 }
